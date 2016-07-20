@@ -14,8 +14,8 @@
     "tests"
   ],
   "dependencies": {
-    "mustache": "mustache#^2.2.1",
-    "bootstrap": "3.3.4"
+    "normalize-css": "^4.2.0",
+    "jquery": "^3.1.0"
   },
   "homepage": "https://github.com/rammaradolla/gruntworkflows",
   "main": ""
