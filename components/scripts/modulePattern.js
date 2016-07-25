@@ -1,7 +1,4 @@
 
-
-//------------------------------------------
-
 var chatModule = (function(){
 
     var leadself = "Me: ",

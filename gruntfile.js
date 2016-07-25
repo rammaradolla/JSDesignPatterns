@@ -15,7 +15,7 @@ module.exports = function(grunt) {
     bower_concat: {
       all: {
         cssDest: 'builds/development/css/_bower.css',
-        dest: 'builds/development/js/_bower.js'
+        dest: 'builds/development/js/_bower.js',
       }
     },
 
@@ -73,6 +73,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-bower-concat');
 
 
-  grunt.registerTask('default', ['wiredep', 'concat', 'sass', 'connect', 'watch']);
+  grunt.registerTask('default', ['wiredep', 'bower_concat', 'concat', 'sass', 'connect', 'watch']);
 
 }; //wrapper function
