@@ -3,8 +3,8 @@ module.exports = function(grunt) {
 
     concat : {
       options: {
-        separator: '\n\n//------------------------------------------\n',
-        banner: '\n\n//------------------------------------------\n'
+        //separator: '\n\n//------------------------------------------\n',
+        //banner: '\n\n//------------------------------------------\n'
       },
       dist : {
         src: ['components/scripts/*.js'],

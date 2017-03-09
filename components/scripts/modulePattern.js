@@ -1,4 +1,6 @@
 
+//------------------ModulePattern Start------------------------\n
+
 var chatModule = (function(){
 
     var leadself = "Me: ",
@@ -31,7 +33,7 @@ var chatModule = (function(){
             echo(leadself + msg);
         },
 
-        replayYesNo: function (msg){
+        replayYesNo: function (){
             var msg = Math.random()>.5 ? msgYes : msgNo;
             echo(leadcomputer + msg);
         },
@@ -44,8 +46,15 @@ var chatModule = (function(){
 
 })();
 
-$(document).ready(function(){
-    chatModule.talk("Ram Maradolla");
-    chatModule.replayYesNo();
-    chatModule.talk("Sushma");
-})
+//------------------ModulePattern End-------------------------------\n
+
+//------------------ModulePattern Test Start------------------------\n
+
+//uncomment this block if you want to test it.
+//$(document).ready(function(){
+//    chatModule.talk("Hey what's up buddy");
+//    chatModule.replayYesNo();
+//    chatModule.talk("Are you kidding!");
+//});
+
+//------------------ModulePattern Test End--------------------------\n
